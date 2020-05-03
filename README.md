@@ -11,6 +11,8 @@ It is (should be) also a demo for a pure ts app with:
 - a test framework (jest)
 - a githook management (husky)
 
+TOC:
+
 - [ts-design-pattern](#ts-design-pattern)
   - [Overall](#overall)
   - [Creational Patterns](#creational-patterns)
