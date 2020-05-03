@@ -14,6 +14,7 @@ class Director {
 
   getNewBus(): Car | CarManual {
     return this.builder
+      .reset()
       .setSeats(24) // TODO number here is converted to string
       .setEngine('bus engine')
       .setTripComputer('bus trip computer')
@@ -23,6 +24,7 @@ class Director {
 
   getNewRacer(): Car | CarManual {
     return this.builder
+      .reset()
       .setSeats(1) // TODO number here is converted to string
       .setEngine('speedy engine')
       .setTripComputer('race computer')

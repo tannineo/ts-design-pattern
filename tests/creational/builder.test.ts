@@ -20,3 +20,13 @@ test('Builder test: director carManual', () => {
   expect(bus.seats).not.toBe(24)
   expect(bus.seats).toBe('24')
 })
+
+test('Builder test: director multiple instances', () => {
+  const director = new Director(new CarBuilder())
+
+  const racer = director.getNewRacer()
+  const bus = director.getNewBus()
+
+  expect(racer.seats).toBe(1)
+  expect(bus.seats).toBe(24)
+})
