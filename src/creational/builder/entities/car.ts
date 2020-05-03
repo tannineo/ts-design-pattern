@@ -30,8 +30,8 @@ class CarBuilder implements Builder<Car> {
     return this
   }
 
-  setSeats(seats: number): CarBuilder {
-    this.car.seats = seats
+  setSeats(seats: string | number): CarBuilder {
+    this.car.seats = parseInt(seats as string)
     return this
   }
 

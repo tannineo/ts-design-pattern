@@ -30,7 +30,7 @@ class CarManualBuilder implements Builder<CarManual> {
     return this
   }
 
-  setSeats(seats: string): CarManualBuilder {
+  setSeats(seats: string | number): CarManualBuilder {
     this.carManual.seats = seats.toString() // TODO convert to string
     return this
   }
