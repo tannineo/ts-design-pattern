@@ -7,10 +7,11 @@ test('Builder test: director car', () => {
 
   const racer = director.getNewRacer()
 
+  expect(racer.seats).not.toBe('1')
   expect(racer.seats).toBe(1)
 })
 
-test('Builder test: director', () => {
+test('Builder test: director carManual', () => {
   const director = new Director(new CarBuilder())
   director.builder = new CarManualBuilder()
 
