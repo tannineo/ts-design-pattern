@@ -9,8 +9,6 @@ class Car {
 
   gps: string | undefined
 
-  constructor() {}
-
   builder(): CarBuilder {
     return new CarBuilder()
   }

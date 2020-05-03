@@ -6,8 +6,10 @@ It is (should be) also a demo for a pure ts app with:
 
 - a step to typescript's interface features
 - a consistent code style
-- a linter
-- a test framework
+  - a linter (eslint)
+  - a formatter (prettier)
+- a test framework (jest)
+- a githook management (husky)
 
 - [ts-design-pattern](#ts-design-pattern)
   - [Overall](#overall)
