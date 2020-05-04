@@ -4,7 +4,7 @@ Try design patterns in typescript.
 
 It is (should be) also a demo for a pure ts app with:
 
-- a step to typescript's interface features
+- a step to typescript's interface/typing features
 - a consistent code style
   - a linter (eslint)
   - a formatter (prettier)

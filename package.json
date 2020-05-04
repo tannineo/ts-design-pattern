@@ -11,7 +11,10 @@
     "lint": "eslint src/**/*.ts && eslint tests/**/*.ts",
     "test": "jest --config=jest.config.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
