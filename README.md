@@ -26,6 +26,7 @@ TODO graph
 ## Creational Patterns
 
 - [Builder](./src/creational/builder)
+- [Singleton](./src/creational/singleton)
 
 ## Reference
 

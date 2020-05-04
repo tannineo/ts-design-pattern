@@ -47,7 +47,7 @@ test('singleton databaseAsync async test', async () => {
 })
 
 test('singleton DatabaseModule test', async () => {
-  const db1 = DatabaseModule.getInstance()
+  const db1 = await DatabaseModule.getInstance()
 
   if (db1 === undefined) {
     throw new Error('undefined instances')
@@ -55,7 +55,7 @@ test('singleton DatabaseModule test', async () => {
     db1.state = '2333'
   }
 
-  const db2 = DatabaseModule.getInstance()
+  const db2 = await DatabaseModule.getInstance()
 
   if (db2 === undefined) {
     throw new Error('undefined instances')
@@ -72,7 +72,7 @@ test('singleton DatabaseModule async test', async () => {
     index: number,
     state: string,
   ): Promise<void> => {
-    db[index] = DatabaseModule.getInstance()
+    db[index] = await DatabaseModule.getInstance()
     db[index].state = state
   }
 
