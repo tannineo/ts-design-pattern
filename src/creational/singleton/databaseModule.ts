@@ -1,5 +1,5 @@
 /**
- * here we use module to implement snigleton
+ * here we use module to implement singleton
  */
 
 class Database {
