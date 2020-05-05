@@ -27,6 +27,7 @@ TODO graph
 
 - [Builder](./src/creational/builder)
 - [Singleton](./src/creational/singleton)
+- [Factory](./src/creational/factory)
 
 ## Reference
 
