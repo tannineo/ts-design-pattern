@@ -4,7 +4,6 @@ One concrete factory to produce one kind of product
 
 Using abstract classes and interfaces to unify factories and products
 
-
 ## Pros and Cons
 
 Pros:
