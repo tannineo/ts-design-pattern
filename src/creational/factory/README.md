@@ -1,8 +1,8 @@
 # factory
 
-One concrete factory to produce one kind of product
+use factory with args and settings to produce verious kinds of product
 
-Using abstract classes and interfaces to unify factories and products
+using abstract classes and interfaces to unify factories and products
 
 ## Pros and Cons
 
