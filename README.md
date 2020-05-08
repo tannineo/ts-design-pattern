@@ -46,7 +46,8 @@ TOC:
 
 ## Reference
 
-[Refactoring GURU - Design Patterns & Typescript](https://refactoringguru.cn/design-patterns/typescript)
+- [Refactoring GURU - Design Patterns & Typescript](https://refactoringguru.cn/design-patterns/typescript)
+- [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/)
 
 ## About
 

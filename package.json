@@ -8,9 +8,9 @@
   "license": "Unlicense",
   "private": false,
   "scripts": {
-    "lint": "eslint src/**/*.ts && eslint tests/**/*.ts",
-    "format-check": "prettier --check .",
     "format": "prettier --write .",
+    "format-check": "prettier --check .",
+    "lint": "eslint src/**/*.ts && eslint tests/**/*.ts",
     "test": "jest --config=jest.config.js"
   },
   "dependencies": {

@@ -11,7 +11,7 @@ class RoundHole {
 }
 
 class RoundPeg {
-  private radius: number
+  protected radius: number
 
   constructor(radius?: number) {
     this.radius = radius ? radius : 0
@@ -30,7 +30,7 @@ class RoundPeg {
 }
 
 class SquarePeg {
-  private width: number
+  protected width: number
 
   constructor(width?: number) {
     this.width = width ? width : 0
@@ -45,31 +45,4 @@ class SquarePeg {
   }
 }
 
-class SquarePegAdapter extends RoundPeg {
-  // radius from super class is useless
-
-  private peg: SquarePeg
-
-  constructor(peg: SquarePeg) {
-    super()
-    this.peg = peg
-  }
-
-  setPeg(peg: SquarePeg): void {
-    this.peg = peg
-  }
-
-  setWidth(width: number): void {
-    this.peg.setWidth(width)
-  }
-
-  getWidth(): number {
-    return this.peg.getWidth()
-  }
-
-  getRadius(): number {
-    return (this.peg.getWidth() * Math.sqrt(2)) / 2
-  }
-}
-
-export { RoundHole, RoundPeg, SquarePeg, SquarePegAdapter }
+export { RoundHole, RoundPeg, SquarePeg }
