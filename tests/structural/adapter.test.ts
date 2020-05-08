@@ -2,7 +2,7 @@ import { RoundHole, RoundPeg, SquarePeg } from '@src/structural/adapter/pegs'
 import SquarePegAdapterSingle from '@src/structural/adapter/squarePegAdapterSingle'
 import {
   SquarePegAdapterMulti,
-  SquarePegAdapterMultiBase,
+  SquarePegAdapterMultiConstructor,
 } from '@src/structural/adapter/squarePegAdapterMulti'
 
 test('adapter test RoundHole fits', () => {
@@ -31,7 +31,7 @@ test('adapter test RoundHole fits SquarePeg using SquarePegAdapterMulti', () => 
   const sPeg1 = new SquarePeg(233)
   const sPeg2 = new SquarePeg(998)
 
-  const adapter = new SquarePegAdapterMulti() as SquarePegAdapterMultiBase
+  const adapter = new SquarePegAdapterMultiConstructor() as SquarePegAdapterMulti
   adapter.radius = hole.radius
   adapter.setWidth(sPeg1.getWidth())
   expect(adapter.isFit()).toBe(true)

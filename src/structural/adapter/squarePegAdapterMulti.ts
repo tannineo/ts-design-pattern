@@ -3,17 +3,17 @@ import { applyMixins } from '@src/helpers/mixins'
 
 // Declaration Merging
 // https://www.typescriptlang.org/docs/handbook/declaration-merging.html
-interface SquarePegAdapterMultiBase extends RoundHole, SquarePeg {}
+interface SquarePegAdapterMulti extends RoundHole, SquarePeg {}
 
-class SquarePegAdapterMultiBase {
+class SquarePegAdapterMulti {
   isFit(): boolean {
     return (this.width * Math.sqrt(2)) / 2 <= this.radius
   }
 }
 
-const SquarePegAdapterMulti = applyMixins(SquarePegAdapterMultiBase, [
+const SquarePegAdapterMultiConstructor = applyMixins(SquarePegAdapterMulti, [
   RoundHole,
   SquarePeg,
 ])
 
-export { SquarePegAdapterMulti, SquarePegAdapterMultiBase }
+export { SquarePegAdapterMultiConstructor, SquarePegAdapterMulti }
