@@ -36,6 +36,7 @@ TOC:
 ## Structural Patterns
 
 - [Adapter](./src/structural/adapter)
+  - with a handbook mixins example
 
 ## Other Concepts
 
