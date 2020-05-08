@@ -2,7 +2,7 @@
 
 To notice that typescript DO NOT support multiple `extends` but multiple interface to `implements`
 
-A work workaround to '`extends`' multiple classes is `mixins`, see [the handbook section](https://www.typescriptlang.org/docs/handbook/mixins.html)
+A workaround to '`extends`' multiple classes is `mixins`, see [the handbook section](https://www.typescriptlang.org/docs/handbook/mixins.html)
 
 ## Pros and Cons
 
