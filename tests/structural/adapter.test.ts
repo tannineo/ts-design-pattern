@@ -3,7 +3,7 @@ import {
   RoundPeg,
   SquarePeg,
   SquarePegAdapter,
-} from '@src/structural/adapter/pegsExtend'
+} from '@src/structural/adapter/pegsSingle'
 
 test('adapter test RoundHole fits', () => {
   const hole = new RoundHole(233)
