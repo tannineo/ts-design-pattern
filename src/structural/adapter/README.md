@@ -4,6 +4,13 @@ To notice that typescript DO NOT support multiple `extends` but multiple interfa
 
 A workaround to '`extends`' multiple classes is `mixins`, see [the handbook section](https://www.typescriptlang.org/docs/handbook/mixins.html)
 
+Here we have two solutions:
+
+- the 'official' pseudocode, using one-class-extends
+- multiple inheritance using interfaces
+
+TODO mixins
+
 ## Pros and Cons
 
 Pros:
@@ -16,4 +23,4 @@ Pros:
 Cons:
 
 - the overall complexity of the code increases because you need to introduce a set of new interfaces and classes
-  - sometimes it’s simpler just to change the service class so that it matches the rest of your code
+  - sometimes it's simpler just to change the service class so that it matches the rest of your code
