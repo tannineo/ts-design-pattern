@@ -9,6 +9,7 @@
   "private": false,
   "scripts": {
     "lint": "eslint src/**/*.ts && eslint tests/**/*.ts",
+    "format-check": "prettier --check .",
     "format": "prettier --write .",
     "test": "jest --config=jest.config.js"
   },
