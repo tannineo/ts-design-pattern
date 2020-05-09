@@ -37,6 +37,7 @@ TOC:
 
 - [Adapter](./src/structural/adapter)
   - with a handbook mixins example
+- [Bridge](./src/structual/bridge)
 
 ## Other Concepts
 
