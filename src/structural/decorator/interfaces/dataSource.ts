@@ -1,5 +1,5 @@
 interface DataSource {
-  writeData(data: string): void
+  writeData(data: string): string
 
   readData(): string
 }

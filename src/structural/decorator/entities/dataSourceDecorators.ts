@@ -7,8 +7,8 @@ class DataSourceDecorator implements DataSource {
     this.wrappee = source
   }
 
-  writeData(data: string): void {
-    this.wrappee.writeData(data)
+  writeData(data: string): string {
+    return this.wrappee.writeData(data)
   }
 
   readData(): string {
@@ -17,8 +17,8 @@ class DataSourceDecorator implements DataSource {
 }
 
 class EncryptionDecorator extends DataSourceDecorator {
-  writeData(data: string): void {
-    this.wrappee.writeData('encrypted(' + data + ')')
+  writeData(data: string): string {
+    return this.wrappee.writeData('encrypted(' + data + ')')
   }
 
   readData(): string {
@@ -27,8 +27,8 @@ class EncryptionDecorator extends DataSourceDecorator {
 }
 
 class CompressionDecorator extends DataSourceDecorator {
-  writeData(data: string): void {
-    this.wrappee.writeData('compressed(' + data + ')')
+  writeData(data: string): string {
+    return this.wrappee.writeData('compressed(' + data + ')')
   }
 
   readData(): string {

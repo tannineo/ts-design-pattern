@@ -2,8 +2,8 @@ import { DataSource } from '../interfaces/dataSource'
 import { DataSourceDecoratorAnnotation as DataSourcePipes } from '../decorators/dataSourceDecoratorAnnotations'
 
 class FileDataSource implements DataSource {
-  writeData(data: string): void {
-    console.log('writeData: ' + data)
+  writeData(data: string): string {
+    return 'writeData: ' + data
   }
 
   readData(): string {
@@ -16,8 +16,8 @@ class FileDataSource implements DataSource {
   compress: true,
 })
 class FileDataSourceDecorated implements DataSource {
-  writeData(data: string): void {
-    console.log('writeData: ' + data)
+  writeData(data: string): string {
+    return 'writeData: ' + data
   }
 
   readData(): string {

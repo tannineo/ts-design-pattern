@@ -23,7 +23,7 @@ const DataSourceDecoratorAnnotation = function (config?: {
 }): <T extends Constructor<DataSource>>(target: T) => T {
   return function <T extends Constructor<DataSource>>(target: T): T {
     return class extends target {
-      writeData(data: string): void {
+      writeData(data: string): string {
         let str = data
         if (config?.compress) {
           str = 'compressed(' + str + ')'
@@ -31,7 +31,7 @@ const DataSourceDecoratorAnnotation = function (config?: {
         if (config?.encrypt) {
           str = 'encrypted(' + str + ')'
         }
-        super.writeData(str)
+        return super.writeData(str)
       }
 
       readData(): string {
