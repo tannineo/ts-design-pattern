@@ -2,7 +2,7 @@
 
 Try design patterns in typescript.
 
-It is (should be) also a demo for a pure ts app with:
+It is (should be) also a demo for a pure `ts` app with:
 
 - a step to typescript's interface/typing features
 - a consistent code style
@@ -30,6 +30,7 @@ TOC:
 
 - [Builder](./src/creational/builder)
 - [Singleton](./src/creational/singleton)
+  - TODO working with IOC lib
 - [Factory](./src/creational/factory)
 - [Prototype](./src/creational/prototype)
 
@@ -38,6 +39,8 @@ TOC:
 - [Adapter](./src/structural/adapter)
   - with a handbook mixins example
 - [Bridge](./src/structual/bridge)
+- [Decorator](./src/structural/decorator)
+  - TODO working with `ts` experimental decorator annotation
 
 ## Other Concepts
 
