@@ -49,6 +49,7 @@ const DataSourceDecoratorAnnotation = function (config?: {
 }
 
 // the following code won't pass type checks
+// the decorated class must implement DataSource interface
 
 // @DataSourceDecoratorAnnotation()
 // class TestDecoratorTypeCheck {}
