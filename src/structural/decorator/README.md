@@ -6,6 +6,8 @@ decorator wraps the basic class's metheds.
 
 decorators can wrap each other like Matryoshka dolls.
 
+the example also comes with a `ts` decorator example.
+
 ## Pros and Cons
 
 Pros:

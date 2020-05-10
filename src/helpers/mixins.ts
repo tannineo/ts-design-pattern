@@ -19,5 +19,3 @@ export const applyMixins = function (derivedCtor: any, baseCtors: any[]): any {
 
   return derivedCtor
 }
-
-export type Constructor<T = {}> = new (...args: any[]) => T

@@ -40,7 +40,7 @@ TOC:
   - with a handbook mixins example
 - [Bridge](./src/structual/bridge)
 - [Decorator](./src/structural/decorator)
-  - TODO working with `ts` experimental decorator annotation
+  - with a example of `ts` experimental decorator annotation
 
 ## Other Concepts
 
