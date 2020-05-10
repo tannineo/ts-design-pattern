@@ -1,5 +1,5 @@
 import { DataSource } from '../interfaces/dataSource'
-import { DataSourceDecoratorAnnotation } from '../decorators/dataSourceDecoratorAnnotations'
+import { DataSourceDecoratorAnnotation as DataSourcePipes } from '../decorators/dataSourceDecoratorAnnotations'
 
 class FileDataSource implements DataSource {
   writeData(data: string): void {
@@ -11,7 +11,7 @@ class FileDataSource implements DataSource {
   }
 }
 
-@DataSourceDecoratorAnnotation({
+@DataSourcePipes({
   encrypt: true,
   compress: true,
 })
