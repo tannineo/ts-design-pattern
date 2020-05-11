@@ -25,6 +25,7 @@ TOC:
 
 - [ ] overall relations
 - [ ] each pattern with UML
+- [ ] for each patterns, adding comparisons with other patterns
 
 ## Creational Patterns
 
@@ -41,6 +42,7 @@ TOC:
 - [Bridge](./src/structual/bridge)
 - [Decorator](./src/structural/decorator)
   - with a example of `ts` experimental decorator annotation
+- [Facade](./src/structural/facade)
 
 ## Other Concepts
 
@@ -48,6 +50,10 @@ TOC:
   - every module or class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class, module or function
 - [Open/Closed Principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
   - software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification
+- [Anit-pattern](https://en.wikipedia.org/wiki/Anti-pattern)
+  - a common response to a recurring problem that is usually ineffective and risks being highly counterproductive
+  - [God Object](https://en.wikipedia.org/wiki/God_object)
+    - an object that knows too much or does too much
 
 ## Reference
 
