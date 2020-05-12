@@ -2,7 +2,7 @@
 
 Provide a class with methods needed and hide all the components/classes inside
 
-No implementation provided :D
+The imlementation is from here: https://refactoring.guru/design-patterns/facade/typescript/example
 
 ## Pros and Cons
 
