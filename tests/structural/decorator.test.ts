@@ -1,11 +1,11 @@
 import {
   FileDataSource,
   FileDataSourceDecorated,
-} from '@src/structural/decorator/entities/fileDataSource'
+} from '@src/structural/decorator/impl/fileDataSource'
 import {
   EncryptionDecorator,
   CompressionDecorator,
-} from '@src/structural/decorator/entities/dataSourceDecorators'
+} from '@src/structural/decorator/impl/dataSourceDecorators'
 
 test('test decorator', () => {
   const source = new FileDataSource()

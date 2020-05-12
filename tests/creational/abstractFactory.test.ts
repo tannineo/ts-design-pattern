@@ -1,8 +1,8 @@
 import GUIFactory from '@src/creational/abstractFactory/interfaces/guiFactory'
-import { WinFactory } from '@src/creational/abstractFactory/entities/windows'
+import { WinFactory } from '@src/creational/abstractFactory/impl/windows'
 import Button from '@src/creational/abstractFactory/interfaces/button'
 import Checkbox from '@src/creational/abstractFactory/interfaces/checkbox'
-import { MacFactory } from '@src/creational/abstractFactory/entities/macos'
+import { MacFactory } from '@src/creational/abstractFactory/impl/macos'
 
 test('abstractFactory test', () => {
   let factory: GUIFactory

@@ -1,6 +1,6 @@
-import { Director } from '@src/creational/builder/entities/director'
-import { CarBuilder } from '@src/creational/builder/entities/car'
-import { CarManualBuilder } from '@src/creational/builder/entities/carManual'
+import { Director } from '@src/creational/builder/impl/director'
+import { CarBuilder } from '@src/creational/builder/impl/car'
+import { CarManualBuilder } from '@src/creational/builder/impl/carManual'
 
 test('Builder test: director car', () => {
   const director = new Director(new CarBuilder())
