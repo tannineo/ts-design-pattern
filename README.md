@@ -46,10 +46,14 @@ TOC:
 
 ## Other Concepts
 
-- [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle)
-  - every module or class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class, module or function
-- [Open/Closed Principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
-  - software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification
+- [S.O.L.I.D Principles](https://en.wikipedia.org/wiki/SOLID)
+  - [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle)
+    - every module or class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class, module or function
+  - [Open/Closed Principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
+    - software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification
+  - [Liskov Substitution Principle](https://en.wikipedia.org/wiki/Behavioral_subtyping)
+  - [Interface Segregation Principle](https://en.wikipedia.org/wiki/Interface_segregation_principle)
+  - [Dependency Inversion Principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 - [Anit-pattern](https://en.wikipedia.org/wiki/Anti-pattern)
   - a common response to a recurring problem that is usually ineffective and risks being highly counterproductive
   - [God Object](https://en.wikipedia.org/wiki/God_object)
