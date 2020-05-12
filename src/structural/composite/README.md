@@ -1,6 +1,10 @@
 # composite
 
+AKA. Object Tree
+
 use a tree structure to manage the code
+
+recursion and iteration is important in the implementation
 
 ## Pros and Cons
 
