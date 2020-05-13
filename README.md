@@ -43,6 +43,8 @@ TOC:
 - [Decorator](./src/structural/decorator)
   - with a example of `ts` experimental decorator annotation
 - [Facade](./src/structural/facade)
+- [Composite](./src/structural/composite)
+- [Flyweight](./src/structural/flyweight)
 
 ## Other Concepts
 
