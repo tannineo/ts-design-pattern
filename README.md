@@ -45,6 +45,7 @@ TOC:
 - [Facade](./src/structural/facade)
 - [Composite](./src/structural/composite)
 - [Flyweight](./src/structural/flyweight)
+- [Proxy](./src/structural/proxy)
 
 ## Other Concepts
 
