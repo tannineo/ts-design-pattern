@@ -1,5 +1,11 @@
 # iterator
 
+The key idea is to:
+
+1. a iterator implements a method to iterate a collection given
+   - better using a facotry to init a iterator
+2. a iterator should maintain the state of its siteration
+
 ## Pros and Cons
 
 Pros:
