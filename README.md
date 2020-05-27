@@ -19,6 +19,7 @@ TOC:
   - [TODO](#todo)
   - [Creational Patterns](#creational-patterns)
   - [Structural Patterns](#structural-patterns)
+  - [Behavioral Patterns](#behavioral-patterns)
   - [Other Concepts](#other-concepts)
   - [Reference](#reference)
   - [About](#about)
@@ -49,6 +50,11 @@ TOC:
 - [Flyweight](./src/structural/flyweight)
 - [Proxy](./src/structural/proxy)
 
+## Behavioral Patterns
+
+- [Observer](./src/behavioral/observer)
+- [Iterator](./src/behavioral/iterator)
+
 ## Other Concepts
 
 - [S.O.L.I.D Principles](https://en.wikipedia.org/wiki/SOLID)
@@ -66,7 +72,7 @@ TOC:
 
 ## Reference
 
-- [Refactoring GURU - Design Patterns & Typescript](https://refactoringguru.cn/design-patterns/typescript)
+- [Refactoring GURU - Design Patterns](https://refactoring.guru/design-patterns)
 - [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/)
 
 ## About
