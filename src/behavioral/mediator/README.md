@@ -19,7 +19,7 @@ Cons:
 
 The parent nodes in component tree act like a mediator(?) to the child nodes.
 
-The state is uplifted to the parent node.
+The state is uplifted to the parent node. Instead of passing the parent node, callback functions are passed to the child nodes.
 
 See:
 
