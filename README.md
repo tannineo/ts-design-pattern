@@ -54,6 +54,7 @@ TOC:
 
 - [Observer](./src/behavioral/observer)
 - [Iterator](./src/behavioral/iterator)
+- [Mediator](./src/behavioral/mediator)
 
 ## Other Concepts
 
